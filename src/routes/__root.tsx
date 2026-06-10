@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Asia Global Finansial — Financial Advisory & Consulting" },
+      { name: "description", content: "AGF is an Indonesian financial advisory firm specializing in fund raising, M&A, restructuring and corporate consulting since 2005." },
+      { name: "author", content: "Asia Global Finansial" },
+      { property: "og:title", content: "Asia Global Finansial" },
+      { property: "og:description", content: "Drive your financial values. Shape your brighter future." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
@@ -91,6 +91,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" },
     ],
   }),
   shellComponent: RootShell,
@@ -118,8 +121,107 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <SiteLayout>
+        <Outlet />
+      </SiteLayout>
     </QueryClientProvider>
+  );
+}
+
+function SiteLayout({ children }: { children: ReactNode }) {
+  return (
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <SiteHeader />
+      <main className="flex-1">{children}</main>
+      <SiteFooter />
+    </div>
+  );
+}
+
+const NAV = [
+  { to: "/", label: "Home" },
+  { to: "/about", label: "About" },
+  { to: "/services", label: "Services" },
+  { to: "/credentials", label: "Credentials" },
+  { to: "/leadership", label: "Leadership" },
+  { to: "/contact", label: "Contact" },
+] as const;
+
+function SiteHeader() {
+  return (
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-[oklch(0.12_0.03_260/0.75)] border-b border-border/60">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
+        <Link to="/" className="group flex items-center gap-3">
+          <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg leading-none">A</span>
+          <span className="flex flex-col leading-tight">
+            <span className="font-display text-base tracking-wider text-foreground">ASIA GLOBAL</span>
+            <span className="text-[0.6rem] tracking-[0.35em] text-gold uppercase">Finansial</span>
+          </span>
+        </Link>
+        <nav className="hidden md:flex items-center gap-8">
+          {NAV.map(item => (
+            <Link
+              key={item.to}
+              to={item.to}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors relative py-1"
+              activeProps={{ className: "text-foreground" }}
+              activeOptions={{ exact: item.to === "/" }}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+        <Link
+          to="/contact"
+          className="hidden md:inline-flex items-center gap-2 text-xs tracking-[0.25em] uppercase border border-gold/70 text-gold px-5 py-2.5 hover:bg-gold hover:text-primary-foreground transition-colors"
+        >
+          Engage Us
+        </Link>
+      </div>
+    </header>
+  );
+}
+
+function SiteFooter() {
+  return (
+    <footer className="mt-24 border-t border-border/60 bg-navy-deep">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 grid gap-12 md:grid-cols-4">
+        <div className="md:col-span-2">
+          <div className="flex items-center gap-3">
+            <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg">A</span>
+            <span className="font-display text-lg tracking-wider">ASIA GLOBAL FINANSIAL</span>
+          </div>
+          <p className="mt-5 text-sm text-muted-foreground max-w-md leading-relaxed">
+            An Indonesian financial advisory firm developing dedicated financing
+            models for institutional clients since 2005.
+          </p>
+        </div>
+        <div>
+          <h4 className="eyebrow">Navigate</h4>
+          <ul className="mt-4 space-y-2 text-sm">
+            {NAV.map(n => (
+              <li key={n.to}>
+                <Link to={n.to} className="text-muted-foreground hover:text-gold transition-colors">{n.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h4 className="eyebrow">Office</h4>
+          <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+            Bellezza Shopping Arcade, Lt. 2, No i-15<br />
+            Jl. Letjend Soepeno No. 34<br />
+            Jakarta, Indonesia 12210
+          </p>
+          <p className="mt-4 text-sm text-muted-foreground">office@agf.co.id</p>
+        </div>
+      </div>
+      <div className="border-t border-border/60">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-6 flex flex-col md:flex-row justify-between gap-3 text-xs text-muted-foreground">
+          <p>© {new Date().getFullYear()} Asia Global Finansial. All rights reserved.</p>
+          <p className="tracking-[0.3em] uppercase text-gold/80">Drive value · Shape future</p>
+        </div>
+      </div>
+    </footer>
   );
 }
