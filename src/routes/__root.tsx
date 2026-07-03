@@ -80,11 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Asia Global Finansial — Financial Advisory & Consulting" },
       { name: "description", content: "AGF is an Indonesian financial advisory firm specializing in fund raising, M&A, restructuring and corporate consulting since 2005." },
       { name: "author", content: "Asia Global Finansial" },
-      { property: "og:title", content: "Asia Global Finansial" },
-      { property: "og:description", content: "Drive your financial values. Shape your brighter future." },
+      { property: "og:title", content: "Asia Global Finansial — Financial Advisory & Consulting" },
+      { property: "og:description", content: "AGF is an Indonesian financial advisory firm specializing in fund raising, M&A, restructuring and corporate consulting since 2005." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Asia Global Finansial — Financial Advisory & Consulting" },
+      { name: "twitter:description", content: "AGF is an Indonesian financial advisory firm specializing in fund raising, M&A, restructuring and corporate consulting since 2005." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0959d0de-e00b-4b1f-ad21-dbbaa642d803/id-preview-04557047--333aa96e-90cc-4381-b3bc-1257ad45008a.lovable.app-1781067130017.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0959d0de-e00b-4b1f-ad21-dbbaa642d803/id-preview-04557047--333aa96e-90cc-4381-b3bc-1257ad45008a.lovable.app-1781067130017.png" },
     ],
     links: [
       {
