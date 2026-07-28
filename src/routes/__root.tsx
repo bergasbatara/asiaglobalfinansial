@@ -157,10 +157,7 @@ function SiteHeader() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <Link to="/" className="group flex items-center gap-3">
           <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg leading-none">A</span>
-          <span className="flex flex-col leading-tight">
-            <span className="font-display text-base tracking-wider text-foreground">ASIA GLOBAL</span>
-            <span className="text-[0.6rem] tracking-[0.35em] text-gold uppercase">Finansial</span>
-          </span>
+          <span className="font-display text-base tracking-wider text-foreground">ASIA GLOBAL FINANSIAL</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {NAV.map(item => (
@@ -193,7 +190,7 @@ function SiteFooter() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
             <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg">A</span>
-            <span className="font-display text-lg tracking-wider">ASIA GLOBAL FINANSIAL</span>
+            <span className="font-display text-lg tracking-wider">Asia Global Financial Advisory and Consulting</span>
           </div>
           <p className="mt-5 text-sm text-muted-foreground max-w-md leading-relaxed">
             An Indonesian financial advisory firm developing dedicated financing
