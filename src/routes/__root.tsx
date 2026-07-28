@@ -158,8 +158,8 @@ function SiteHeader() {
         <Link to="/" className="group flex items-center gap-3">
           <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg leading-none">A</span>
           <span className="flex flex-col leading-tight">
-            <span className="font-display text-base tracking-wider text-foreground">ASIA GLOBAL</span>
-            <span className="text-[0.6rem] tracking-[0.35em] text-gold uppercase">Finansial</span>
+            <span className="font-display text-base tracking-wider text-foreground">ASIA GLOBAL FINANSIAL</span>
+            <span className="text-[0.6rem] tracking-[0.35em] text-gold uppercase">Financial Advisory and Consulting</span>
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
