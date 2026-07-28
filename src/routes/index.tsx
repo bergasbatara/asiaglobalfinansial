@@ -42,7 +42,7 @@ function Hero() {
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,oklch(0.12_0.03_260/0.7)_85%)]" />
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 h-full flex flex-col justify-center">
-        <span className="eyebrow fade-up">Est. 2005 · Jakarta</span>
+        <span className="eyebrow fade-up">Est. 2005</span>
         <h1 className="fade-up mt-6 max-w-4xl font-display text-5xl sm:text-6xl lg:text-7xl leading-[1.05] text-foreground">
           Architects of capital for <span className="italic text-gold">institutions</span> shaping Indonesia.
         </h1>
