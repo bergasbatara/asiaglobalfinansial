@@ -193,7 +193,10 @@ function SiteFooter() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
             <span className="flex h-9 w-9 items-center justify-center rounded-sm border border-gold/60 text-gold font-display text-lg">A</span>
-            <span className="font-display text-lg tracking-wider">ASIA GLOBAL FINANSIAL</span>
+            <span className="flex flex-col leading-tight">
+              <span className="font-display text-lg tracking-wider">ASIA GLOBAL FINANSIAL</span>
+              <span className="text-xs tracking-[0.35em] text-gold uppercase">Financial Advisory and Consulting</span>
+            </span>
           </div>
           <p className="mt-5 text-sm text-muted-foreground max-w-md leading-relaxed">
             An Indonesian financial advisory firm developing dedicated financing
