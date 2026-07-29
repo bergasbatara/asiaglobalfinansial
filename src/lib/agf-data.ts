@@ -3,7 +3,7 @@ export const SERVICES = [
     id: "fund-raising",
     tag: "Financial Advisory",
     title: "Fund Raising",
-    blurb: "Local and international capital across syndicated loans, debt and private placements.",
+    blurb: "Local and international capital across syndicated loans, debts and private placements.",
     items: [
       "Loan Syndication",
       "Debts",
