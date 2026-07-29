@@ -96,7 +96,7 @@ export const ACHIEVEMENTS = [
   { sector: "Guhring, Inc. (Germany)", type: "Due Diligence", market: "International", currency: "USD", role: "Consultant", logo: "/__l5e/assets-v1/32f15974-3188-4bae-92a5-2ae15ac0dd03/guhring-logo.png" },
   { sector: "Fertilizer Trader Company", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Medical Equipment Trader Company", type: "Business Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
-  { sector: "Renewable Energy Company", type: "Shadow Rating Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
+  { sector: "Renewable Energy Company (SOE Subsidiary)", type: "Shadow Rating Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Syariah Hotel Company (Medan)", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Bank Pembangunan Daerah (BPD) Jambi", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
 ];
