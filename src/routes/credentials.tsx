@@ -100,8 +100,8 @@ function CredentialsPage() {
                   style={{ animationDelay: `${idx * 25}ms` }}
                 >
                   <div className="col-span-12 md:col-span-6 font-display text-lg flex items-center gap-3">
-                    {a.sector}
-                    {a.logo && <img src={a.logo} alt={`${a.sector} logo`} className="h-6 w-auto object-contain" />}
+                  {a.sector}
+                    {a.logo && <img src={a.logo} alt={`${a.sector} logo`} className="h-7 w-auto object-contain" />}
                   </div>
                   <div className="col-span-6 md:col-span-3 text-sm text-muted-foreground">{a.type}</div>
                   <div className="col-span-3 md:col-span-2 text-xs tracking-[0.2em] uppercase text-gold/80">{a.market}</div>
