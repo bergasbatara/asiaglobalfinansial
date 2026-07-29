@@ -82,7 +82,7 @@ export const ACHIEVEMENTS = [
   { sector: "Wood-Processed Products Exporter", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Hotel & Hospitality Company", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Arranger" },
   { sector: "Property & Investment Co.", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Arranger" },
-  { sector: "General Contractor — Istaka Karya", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Arranger" },
+  { sector: "General Contractor (SOE)", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Arranger" },
   { sector: "Defence Sector Holding (DEFEND ID)", type: "MTN Issuance", market: "Indonesia", currency: "IDR", role: "Joint Arranger" },
   { sector: "Tourism Development Co. (ITDC)", type: "Restructuring", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Railway Systems (SOE Subsidiary)", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Arranger" },
