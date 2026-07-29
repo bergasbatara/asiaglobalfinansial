@@ -79,7 +79,7 @@ function ContactPage() {
             <div>
               <span className="eyebrow">Online</span>
               <ul className="mt-4 space-y-2 text-foreground">
-                <li><a className="hover:text-gold transition-colors" href="https://www.agf.co.id" target="_blank" rel="noreferrer">www.agf.co.id</a></li>
+                <li><a className="hover:text-gold transition-colors" href="https://www.asiaglobalfinansial.com" target="_blank" rel="noreferrer">www.asiaglobalfinansial.com</a></li>
                 <li>Instagram: asiaglobalfinansial</li>
               </ul>
             </div>
