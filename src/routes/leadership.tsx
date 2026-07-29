@@ -39,7 +39,7 @@ function LeadershipPage() {
               <div>
                 <h2 className="font-display text-4xl">{p.name}</h2>
                 <div className="mt-2 text-sm tracking-[0.2em] uppercase text-gold">{p.role}</div>
-                <p className="mt-6 text-muted-foreground leading-relaxed">{p.bio}</p>
+                <p className="mt-6 text-muted-foreground leading-relaxed text-justify">{p.bio}</p>
               </div>
             </article>
           ))}
