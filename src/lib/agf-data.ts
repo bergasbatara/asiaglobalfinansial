@@ -45,6 +45,7 @@ export const SERVICES = [
       "Strategic Corporate Planning",
       "Risk Management Consulting",
       "Business Contingency Planning",
+      "Business and Financial Due Diligence",
     ],
   },
 ];
