@@ -91,7 +91,7 @@ export const ACHIEVEMENTS = [
   { sector: "Golf Course Sanur Bali", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Bank Pembangunan Daerah (BPD)", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Pension Funds", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
-  { sector: "Guhring Indonesia", type: "Due Diligence", market: "International", currency: "USD", role: "Consultant" },
+  { sector: "Guhring, Inc. (Germany)", type: "Due Diligence", market: "International", currency: "USD", role: "Consultant" },
 ];
 
 export const STATS = [
