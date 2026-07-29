@@ -88,7 +88,7 @@ export const ACHIEVEMENTS = [
   { sector: "Railway Systems (SOE Subsidiary)", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Financial Advisory" },
   { sector: "Independent Power Producer", type: "Securitization", market: "Indonesia", currency: "USD", role: "Financial Advisor" },
   { sector: "Independent Power Producer", type: "Merger & Acquisition", market: "Indonesia", currency: "USD", role: "Financial Advisor" },
-  { sector: "EPC Company (SOE Subsidiary)", type: "Business Spin-off", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
+  { sector: "EPC Company (SOE Subsidiary)", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Textile & Fabrics Trading", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Financial Advisory" },
   { sector: "Printing & Publishing Co. (SOE)", type: "Debt", market: "Indonesia", currency: "IDR", role: "Financial Advisory" },
   { sector: "Golf Course Sanur Bali", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
