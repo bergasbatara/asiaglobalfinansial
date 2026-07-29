@@ -97,7 +97,7 @@ export const ACHIEVEMENTS = [
   { sector: "Fertilizer Trader Company", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Medical Equipment Trader Company", type: "Business Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Renewable Energy Company (SOE Subsidiary)", type: "Shadow Rating Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
-  { sector: "Syariah Hotel Company (Medan)", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
+  { sector: "Saka (Syariah) Hotel Company (Medan)", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Bank Pembangunan Daerah (BPD) Jambi", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Bank Pembangunan Daerah (BPD) Bengkulu", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Bank Pembangunan Daerah (BPD) Lampung", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
