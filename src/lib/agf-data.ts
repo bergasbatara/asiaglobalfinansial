@@ -91,7 +91,7 @@ export const ACHIEVEMENTS = [
   { sector: "Textile & Fabrics Trading", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Financial Advisory" },
   { sector: "Printing & Publishing Co. (SOE)", type: "Debt", market: "Indonesia", currency: "IDR", role: "Financial Advisory" },
   { sector: "Golf Course Sanur Bali", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
-  { sector: "Bank Pembangunan Daerah (BPD)", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
+  { sector: "Pension Funds", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Pension Funds", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Guhring, Inc. (Germany)", type: "Due Diligence", market: "International", currency: "USD", role: "Consultant", logo: "/__l5e/assets-v1/32f15974-3188-4bae-92a5-2ae15ac0dd03/guhring-logo.png" },
   { sector: "Fertilizer Trader Company", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
