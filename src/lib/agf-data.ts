@@ -77,7 +77,7 @@ export const ACHIEVEMENTS = [
   { sector: "Retailer & Supermarkets (Bali)", type: "Loan Syndication", market: "International", currency: "USD", role: "Arranger" },
   { sector: "Producer of Honda Motor Frames", type: "Merger & Acquisition", market: "International", currency: "USD", role: "Financial Advisor" },
   { sector: "Smart Card Producer", type: "Merger & Acquisition", market: "International", currency: "USD", role: "Financial Advisor", logo: "/__l5e/assets-v1/ab30352f-4112-4070-be3b-c8264840cb9a/smart-card-logo.png" },
-  { sector: "Smart Card Producer", type: "Due Diligence", market: "International", currency: "USD", role: "Financial Advisor", logo: "/__l5e/assets-v1/ab30352f-4112-4070-be3b-c8264840cb9a/smart-card-logo.png" },
+  { sector: "Smart Card Producer", type: "Due Diligence", market: "International", currency: "USD", role: "Consulting", logo: "/__l5e/assets-v1/ab30352f-4112-4070-be3b-c8264840cb9a/smart-card-logo.png" },
   { sector: "Wood-Processed Products Exporter", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Wood-Processed Products Exporter", type: "Debt", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Hotel & Hospitality Company", type: "Debt", market: "Indonesia", currency: "IDR", role: "Arranger" },
