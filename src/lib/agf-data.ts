@@ -97,7 +97,7 @@ export const STATS = [
   { value: "20+", label: "Years of practice" },
   { value: "18+", label: "Landmark mandates" },
   { value: "USD / IDR", label: "Dual-currency execution" },
-  { value: "SOE & PC", label: "Across sectors & ownership" },
+  { value: "State-owned Enterprises & Private Companies", label: "Across sectors & ownership" },
 ];
 
 export const LEADERSHIP = [
