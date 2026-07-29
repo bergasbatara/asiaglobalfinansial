@@ -6,7 +6,7 @@ export const SERVICES = [
     blurb: "Local and international capital across syndicated loans, debt and private placements.",
     items: [
       "Loan Syndication",
-      "Debt",
+      "Debts",
       "Private Placements (Equity & Debt)",
       "Private Placements (Equity & Debt)",
       "International Capital Sourcing",
