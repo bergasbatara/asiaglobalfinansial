@@ -14,7 +14,7 @@ export const Route = createFileRoute("/credentials")({
   component: CredentialsPage,
 });
 
-const FILTERS = ["All", "Business Consulting", "Business Spin-off", "Debt", "Due Diligence", "Loan Syndication", "Merger & Acquisition", "Restructuring", "Risk Management Consulting", "Securitization", "Shadow Rating Consulting"] as const;
+const FILTERS = ["All", "Business Consulting", "Debt", "Due Diligence", "Loan Syndication", "Merger & Acquisition", "Restructuring", "Risk Management Consulting", "Securitization", "Shadow Rating Consulting"] as const;
 const MARKETS = ["All", "Indonesia", "International"] as const;
 
 function CredentialsPage() {
