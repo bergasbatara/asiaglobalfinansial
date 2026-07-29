@@ -94,6 +94,7 @@ export const ACHIEVEMENTS = [
   { sector: "Bank Pembangunan Daerah (BPD)", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Pension Funds", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Guhring, Inc. (Germany)", type: "Due Diligence", market: "International", currency: "USD", role: "Consultant" },
+  { sector: "Fertilizer Trader Company", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
 ];
 
 export const STATS = [
