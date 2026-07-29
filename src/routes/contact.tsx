@@ -42,7 +42,7 @@ function ContactPage() {
             <Field label="Full name" name="name" required />
             <Field label="Organization" name="org" required />
             <Field label="Email" name="email" type="email" required />
-            <Field label="Mandate type" name="mandate" placeholder="e.g. MTN issuance, M&A, restructuring" />
+            <Field label="Mandate type" name="mandate" placeholder="e.g. debt, M&A, restructuring" />
             <div>
               <label className="block text-xs tracking-[0.25em] uppercase text-muted-foreground mb-2">Brief</label>
               <textarea
