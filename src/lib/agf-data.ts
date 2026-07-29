@@ -116,7 +116,7 @@ export const LEADERSHIP = [
   {
     name: "Purboyo A. Purnomo",
     role: "Managing Director & Majority Shareholder",
-    bio: "More than 25 years across financial services and one of the largest international oil companies (Chevron/Caltex Pacific Indonesia). Former Head of Investment Management Research at Danareksa Investment Management, Associate Director — Investment Banking at Danareksa Sekuritas, Chief Investment Officer at Mandiri Investasi, and Vice President Director at EuroCapital Peregrine Securities. Founded GH Holdings Investment in Singapore (KPMG Tower, 2014–2015). CFA Level II (1997). Visiting lecturer at IPAF Jakarta and several universities. Accountant, FE University of Indonesia; Master Degree, Trisakti University.",
+    bio: "More than 25 years across financial services and one of the largest international oil companies (Chevron/Caltex Pacific Indonesia). Former Head of Investment Management Research at Danareksa Investment Management, Associate Director — Investment Banking at Danareksa Sekuritas, Chief Investment Officer at Mandiri Investasi, and Vice President Director at EuroCapital Peregrine Securities. Founded GH Holdings Investment in Singapore (KPMG Tower, 2014–2015). CFA Level II Exam (1997). Visiting lecturer at IPAF Jakarta and several universities. Accountant, FE University of Indonesia; Master Degree, Trisakti University.",
     initials: "PP",
   },
 ];
