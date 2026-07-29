@@ -98,6 +98,7 @@ export const ACHIEVEMENTS = [
   { sector: "Medical Equipment Trader Company", type: "Business Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Renewable Energy Company", type: "Shadow Rating Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
   { sector: "Syariah Hotel Company (Medan)", type: "Merger & Acquisition", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
+  { sector: "Bank Pembangunan Daerah (BPD) Jambi", type: "Risk Management Consulting", market: "Indonesia", currency: "IDR", role: "Consultant" },
 ];
 
 export const STATS = [
