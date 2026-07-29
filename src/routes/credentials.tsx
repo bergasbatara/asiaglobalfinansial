@@ -87,11 +87,10 @@ function CredentialsPage() {
 
           <div className="border border-border/60">
             <div className="hidden md:grid grid-cols-12 gap-4 px-6 py-4 bg-card/60 text-xs tracking-[0.2em] uppercase text-muted-foreground">
-              <div className="col-span-5">Sector</div>
+              <div className="col-span-6">Sector</div>
               <div className="col-span-3">Transaction</div>
               <div className="col-span-2">Market</div>
               <div className="col-span-1">Ccy</div>
-              <div className="col-span-1 text-right">Role</div>
             </div>
             <ul className="divide-y divide-border/60">
               {filtered.map((a, idx) => (
@@ -100,14 +99,13 @@ function CredentialsPage() {
                   className="grid grid-cols-12 gap-4 px-6 py-5 items-center hover:bg-card/40 transition-colors fade-up"
                   style={{ animationDelay: `${idx * 25}ms` }}
                 >
-                  <div className="col-span-12 md:col-span-5 font-display text-lg flex items-center gap-3">
+                  <div className="col-span-12 md:col-span-6 font-display text-lg flex items-center gap-3">
                     {a.sector}
                     {a.logo && <img src={a.logo} alt={`${a.sector} logo`} className="h-6 w-auto object-contain" />}
                   </div>
                   <div className="col-span-6 md:col-span-3 text-sm text-muted-foreground">{a.type}</div>
                   <div className="col-span-3 md:col-span-2 text-xs tracking-[0.2em] uppercase text-gold/80">{a.market}</div>
-                  <div className="col-span-1 text-xs tabular-nums text-muted-foreground">{a.currency}</div>
-                  <div className="col-span-2 md:col-span-1 text-xs tracking-[0.2em] uppercase text-right text-muted-foreground">{a.role}</div>
+                  <div className="col-span-3 md:col-span-1 text-xs tabular-nums text-muted-foreground">{a.currency}</div>
                 </li>
               ))}
               {filtered.length === 0 && (
