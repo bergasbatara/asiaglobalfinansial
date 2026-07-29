@@ -6,7 +6,7 @@ export const Route = createFileRoute("/credentials")({
   head: () => ({
     meta: [
       { title: "Credentials — Asia Global Finansial" },
-      { name: "description", content: "Selected mandates across MTN issuance, M&A, syndication, restructuring and consulting — for SOE and private enterprises in Indonesia and abroad." },
+      { name: "description", content: "Selected mandates across debt, M&A, syndication, restructuring and consulting — for SOE and private enterprises in Indonesia and abroad." },
       { property: "og:title", content: "Credentials — AGF" },
       { property: "og:description", content: "A track record across sectors, markets and currencies." },
     ],
