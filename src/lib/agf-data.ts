@@ -119,10 +119,4 @@ export const LEADERSHIP = [
     bio: "More than 25 years across financial services and one of the largest international oil companies (Chevron/Caltex Pacific Indonesia). Former Head of Investment Management Research at Danareksa Investment Management, Associate Director — Investment Banking at Danareksa Sekuritas, Chief Investment Officer at Mandiri Investasi, and Vice President Director at EuroCapital Peregrine Securities. Founded GH Holdings Investment in Singapore (KPMG Tower, 2014–2015). CFA Level II (1997). Visiting lecturer at IPAF Jakarta and several universities. Accountant, FE University of Indonesia; Master Degree, Trisakti University.",
     initials: "PP",
   },
-  {
-    name: "Dody Setiabudi",
-    role: "Partner — Investment & Advisory",
-    bio: "Currently manages Sinergi Mitra Investment Group (since 2018) across investment, advisory, insurance brokerage and IT. Previously Investment Banking Director at PT Reliance Securities Tbk, President Director at PT Anugerah Kagum Karya Utama Tbk (Kagum Group), and CFO at PT Citra Borneo Indah — leading the USD 300M global bond buy-back of PT Sawit Sumbermas Tbk. Strong managerial and technical depth across legal, finance and operations. Accountant, Parahyangan Catholic University; Economic Law, Padjadjaran University; Master Management (Finance), STM PPM.",
-    initials: "DS",
-  },
 ];
