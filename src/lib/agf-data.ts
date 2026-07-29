@@ -84,7 +84,7 @@ export const ACHIEVEMENTS = [
   { sector: "Property & Investment Co.", type: "Debt", market: "Indonesia", currency: "IDR", role: "Arranger" },
   { sector: "General Contractor (SOE)", type: "Debt", market: "Indonesia", currency: "IDR", role: "Arranger" },
   { sector: "Defence Company", type: "Debt", market: "Indonesia", currency: "IDR", role: "Joint Arranger" },
-  { sector: "Tourism Development Co. (ITDC)", type: "Restructuring", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
+  { sector: "Tourism Development Co. (SOE)", type: "Restructuring", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
   { sector: "Railway Systems (SOE Subsidiary)", type: "Loan Syndication", market: "Indonesia", currency: "IDR", role: "Arranger" },
   { sector: "Independent Power Producer", type: "Asset Securitization", market: "Indonesia", currency: "USD", role: "Financial Advisor" },
   { sector: "EPC Company (SOE Subsidiary)", type: "Business Spin-off", market: "Indonesia", currency: "IDR", role: "Financial Advisor" },
